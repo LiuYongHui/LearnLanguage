@@ -14,11 +14,13 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-
     [super viewDidLoad];
-    
-    
-    
+    [self viewAnimation];
+}
+
+//UIView动画
+- (void)viewAnimation {
+    self.view.backgroundColor = UIColor.whiteColor;
 }
 
 @end
