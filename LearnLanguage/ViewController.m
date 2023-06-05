@@ -19,28 +19,4 @@
 
 }
 
-
-- (void)createThread {
-
-}
-
-- (void)threadMethod {
-    NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(runThread) object:nil];
-    [thread start];
-
-    [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-        
-    }];
-    
-    
-
-    
-}
-
-- (void)runThread {
-    NSLog(@"hello %@", [NSThread currentThread]);
-}
-
-
-
 @end
