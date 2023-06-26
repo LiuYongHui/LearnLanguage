@@ -9,6 +9,7 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, copy, readonly) NSString *cityName;
 
 @end
 

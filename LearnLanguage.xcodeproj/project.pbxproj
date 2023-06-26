@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6638109C2A396172004B553C /* YHMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6638109B2A396172004B553C /* YHMainVC.m */; };
+		6638109F2A3965D3004B553C /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6638109E2A3965D3004B553C /* HomeVC.m */; };
+		663810A22A3965ED004B553C /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 663810A12A3965ED004B553C /* DiscoverVC.m */; };
+		663810A52A396600004B553C /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 663810A42A396600004B553C /* MineVC.m */; };
+		668155FA2A3820DF000DC545 /* DDCollegePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 668155F92A3820DF000DC545 /* DDCollegePickerVC.m */; };
+		668155FD2A3827CB000DC545 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 668155FC2A3827CB000DC545 /* TestClass.m */; };
+		66B6D2482A47E11100F19C71 /* UIColor+YHUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B6D2472A47E11100F19C71 /* UIColor+YHUIColor.m */; };
+		66B6D24B2A47E39900F19C71 /* NSString+YHNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B6D24A2A47E39900F19C71 /* NSString+YHNSString.m */; };
 		66BD3FE229EE2F1100710ED8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD3FE129EE2F1100710ED8 /* AppDelegate.m */; };
 		66BD3FE529EE2F1100710ED8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD3FE429EE2F1100710ED8 /* SceneDelegate.m */; };
 		66BD3FE829EE2F1100710ED8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD3FE729EE2F1100710ED8 /* ViewController.m */; };
@@ -20,6 +28,23 @@
 /* Begin PBXFileReference section */
 		39FBADACA99385BBA58B0996 /* Pods_LearnLanguage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnLanguage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		559794A431372E7E9C13DC61 /* Pods-LearnLanguage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnLanguage.debug.xcconfig"; path = "Target Support Files/Pods-LearnLanguage/Pods-LearnLanguage.debug.xcconfig"; sourceTree = "<group>"; };
+		6604610B2A2DD3B40055A770 /* KVC.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = KVC.md; sourceTree = "<group>"; };
+		6638109A2A396172004B553C /* YHMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMainVC.h; sourceTree = "<group>"; };
+		6638109B2A396172004B553C /* YHMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMainVC.m; sourceTree = "<group>"; };
+		6638109D2A3965D3004B553C /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		6638109E2A3965D3004B553C /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		663810A02A3965ED004B553C /* DiscoverVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
+		663810A12A3965ED004B553C /* DiscoverVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
+		663810A32A396600004B553C /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		663810A42A396600004B553C /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		668155F82A3820DF000DC545 /* DDCollegePickerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDCollegePickerVC.h; sourceTree = "<group>"; };
+		668155F92A3820DF000DC545 /* DDCollegePickerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDCollegePickerVC.m; sourceTree = "<group>"; };
+		668155FB2A3827CB000DC545 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		668155FC2A3827CB000DC545 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		66B6D2462A47E11100F19C71 /* UIColor+YHUIColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YHUIColor.h"; sourceTree = "<group>"; };
+		66B6D2472A47E11100F19C71 /* UIColor+YHUIColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YHUIColor.m"; sourceTree = "<group>"; };
+		66B6D2492A47E39900F19C71 /* NSString+YHNSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YHNSString.h"; sourceTree = "<group>"; };
+		66B6D24A2A47E39900F19C71 /* NSString+YHNSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YHNSString.m"; sourceTree = "<group>"; };
 		66BD3FDD29EE2F1100710ED8 /* LearnLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BD3FE029EE2F1100710ED8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66BD3FE129EE2F1100710ED8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +121,23 @@
 				66BD3FEE29EE2F1500710ED8 /* LaunchScreen.storyboard */,
 				66BD3FF129EE2F1600710ED8 /* Info.plist */,
 				66BD3FF229EE2F1600710ED8 /* main.m */,
+				6604610B2A2DD3B40055A770 /* KVC.md */,
+				668155F82A3820DF000DC545 /* DDCollegePickerVC.h */,
+				668155F92A3820DF000DC545 /* DDCollegePickerVC.m */,
+				668155FB2A3827CB000DC545 /* TestClass.h */,
+				668155FC2A3827CB000DC545 /* TestClass.m */,
+				6638109A2A396172004B553C /* YHMainVC.h */,
+				6638109B2A396172004B553C /* YHMainVC.m */,
+				6638109D2A3965D3004B553C /* HomeVC.h */,
+				6638109E2A3965D3004B553C /* HomeVC.m */,
+				663810A02A3965ED004B553C /* DiscoverVC.h */,
+				663810A12A3965ED004B553C /* DiscoverVC.m */,
+				663810A32A396600004B553C /* MineVC.h */,
+				663810A42A396600004B553C /* MineVC.m */,
+				66B6D2462A47E11100F19C71 /* UIColor+YHUIColor.h */,
+				66B6D2492A47E39900F19C71 /* NSString+YHNSString.h */,
+				66B6D24A2A47E39900F19C71 /* NSString+YHNSString.m */,
+				66B6D2472A47E11100F19C71 /* UIColor+YHUIColor.m */,
 			);
 			path = LearnLanguage;
 			sourceTree = "<group>";
@@ -214,10 +256,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B6D24B2A47E39900F19C71 /* NSString+YHNSString.m in Sources */,
+				6638109C2A396172004B553C /* YHMainVC.m in Sources */,
+				668155FD2A3827CB000DC545 /* TestClass.m in Sources */,
+				663810A22A3965ED004B553C /* DiscoverVC.m in Sources */,
+				663810A52A396600004B553C /* MineVC.m in Sources */,
 				66BD3FE829EE2F1100710ED8 /* ViewController.m in Sources */,
 				66BD3FE229EE2F1100710ED8 /* AppDelegate.m in Sources */,
 				66BD3FF329EE2F1600710ED8 /* main.m in Sources */,
+				6638109F2A3965D3004B553C /* HomeVC.m in Sources */,
+				668155FA2A3820DF000DC545 /* DDCollegePickerVC.m in Sources */,
 				66BD3FE529EE2F1100710ED8 /* SceneDelegate.m in Sources */,
+				66B6D2482A47E11100F19C71 /* UIColor+YHUIColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -345,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
