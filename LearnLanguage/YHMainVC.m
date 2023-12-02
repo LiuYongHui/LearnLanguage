@@ -34,7 +34,7 @@
     [vc.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.grayColor} forState:UIControlStateNormal];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     
-    return vc;
+    return nav;
 }
 
 /*

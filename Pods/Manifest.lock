@@ -1,16 +1,48 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.15.8):
+    - SDWebImage/Core (= 5.15.8)
+  - SDWebImage/Core (5.15.8)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
+  - AFNetworking
   - Masonry
+  - MBProgressHUD
+  - SDWebImage
+  - YYText
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - Masonry
+    - MBProgressHUD
+    - SDWebImage
+    - YYText
 
 SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: cb032eba469c54e0000e78bcb0a13cdde0a52798
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: a6087355063bc0f1c14a5d159a2c49023363e8a6
+PODFILE CHECKSUM: d478852e90d342c0c505d4bcfc208801d1471aa9
 
 COCOAPODS: 1.11.3

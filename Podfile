@@ -9,6 +9,10 @@ target 'LearnLanguage' do
 
   # Pods for iOS_Learn
   pod 'Masonry'
+  pod 'MBProgressHUD'
+  pod 'YYText'
+  pod 'SDWebImage'
+  pod 'AFNetworking'
   
 
 end

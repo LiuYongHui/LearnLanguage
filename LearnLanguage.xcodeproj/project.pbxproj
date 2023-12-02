@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6614B9FA2AFF25EE00D5C2DC /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6614B9F92AFF25EE00D5C2DC /* DrawView.m */; };
+		6614B9FC2AFF327400D5C2DC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6614B9FB2AFF327400D5C2DC /* AssetsLibrary.framework */; };
+		6614B9FE2AFF327E00D5C2DC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6614B9FD2AFF327E00D5C2DC /* MobileCoreServices.framework */; };
+		6614BA002AFF328A00D5C2DC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6614B9FF2AFF328A00D5C2DC /* MediaPlayer.framework */; };
+		6614BA022AFF329600D5C2DC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6614BA012AFF329600D5C2DC /* CoreMedia.framework */; };
+		6614BA042AFF32A500D5C2DC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6614BA032AFF32A500D5C2DC /* AVFoundation.framework */; };
+		661C464E2B118EDC00AE6827 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 661C464D2B118EDB00AE6827 /* libsqlite3.tbd */; };
 		6638109C2A396172004B553C /* YHMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6638109B2A396172004B553C /* YHMainVC.m */; };
 		6638109F2A3965D3004B553C /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6638109E2A3965D3004B553C /* HomeVC.m */; };
 		663810A22A3965ED004B553C /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 663810A12A3965ED004B553C /* DiscoverVC.m */; };
 		663810A52A396600004B553C /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 663810A42A396600004B553C /* MineVC.m */; };
+		666175272AFF35AC006F9ADF /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 666175262AFF35AC006F9ADF /* test.mp3 */; };
+		666D07FC2A5BA56500574406 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 666D07FB2A5BA56500574406 /* Object.m */; };
 		668155FA2A3820DF000DC545 /* DDCollegePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 668155F92A3820DF000DC545 /* DDCollegePickerVC.m */; };
 		668155FD2A3827CB000DC545 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 668155FC2A3827CB000DC545 /* TestClass.m */; };
+		6699FDF72B1ADE7700384B2B /* Object+AssociaTedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6699FDF62B1ADE7700384B2B /* Object+AssociaTedObject.m */; };
 		66B6D2482A47E11100F19C71 /* UIColor+YHUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B6D2472A47E11100F19C71 /* UIColor+YHUIColor.m */; };
 		66B6D24B2A47E39900F19C71 /* NSString+YHNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B6D24A2A47E39900F19C71 /* NSString+YHNSString.m */; };
 		66BD3FE229EE2F1100710ED8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD3FE129EE2F1100710ED8 /* AppDelegate.m */; };
@@ -22,13 +32,25 @@
 		66BD3FED29EE2F1500710ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BD3FEC29EE2F1500710ED8 /* Assets.xcassets */; };
 		66BD3FF029EE2F1500710ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BD3FEE29EE2F1500710ED8 /* LaunchScreen.storyboard */; };
 		66BD3FF329EE2F1600710ED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD3FF229EE2F1600710ED8 /* main.m */; };
+		66BDBABA2AF497ED006F696D /* CalcutorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDBAB92AF497ED006F696D /* CalcutorModel.m */; };
+		66BDBABE2AF499EF006F696D /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDBABC2AF499EF006F696D /* CalculatorViewController.m */; };
+		66BDBABF2AF499EF006F696D /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BDBABD2AF499EF006F696D /* CalculatorViewController.xib */; };
+		66BDBAC32AF4B529006F696D /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDBAC22AF4B529006F696D /* RedView.m */; };
 		EFE4F5EFF720D0648995EAA0 /* Pods_LearnLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FBADACA99385BBA58B0996 /* Pods_LearnLanguage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39FBADACA99385BBA58B0996 /* Pods_LearnLanguage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnLanguage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		559794A431372E7E9C13DC61 /* Pods-LearnLanguage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnLanguage.debug.xcconfig"; path = "Target Support Files/Pods-LearnLanguage/Pods-LearnLanguage.debug.xcconfig"; sourceTree = "<group>"; };
-		6604610B2A2DD3B40055A770 /* KVC.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = KVC.md; sourceTree = "<group>"; };
+		6614B9F82AFF25EE00D5C2DC /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		6614B9F92AFF25EE00D5C2DC /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		6614B9FB2AFF327400D5C2DC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6614B9FD2AFF327E00D5C2DC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6614B9FF2AFF328A00D5C2DC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6614BA012AFF329600D5C2DC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6614BA032AFF32A500D5C2DC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		661C464A2B1186A400AE6827 /* minion_01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = minion_01.mp4; sourceTree = "<group>"; };
+		661C464D2B118EDB00AE6827 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		6638109A2A396172004B553C /* YHMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMainVC.h; sourceTree = "<group>"; };
 		6638109B2A396172004B553C /* YHMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMainVC.m; sourceTree = "<group>"; };
 		6638109D2A3965D3004B553C /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
@@ -37,10 +59,15 @@
 		663810A12A3965ED004B553C /* DiscoverVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
 		663810A32A396600004B553C /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
 		663810A42A396600004B553C /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		666175262AFF35AC006F9ADF /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		666D07FA2A5BA56500574406 /* Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		666D07FB2A5BA56500574406 /* Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
 		668155F82A3820DF000DC545 /* DDCollegePickerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDCollegePickerVC.h; sourceTree = "<group>"; };
 		668155F92A3820DF000DC545 /* DDCollegePickerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDCollegePickerVC.m; sourceTree = "<group>"; };
 		668155FB2A3827CB000DC545 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		668155FC2A3827CB000DC545 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		6699FDF52B1ADE7700384B2B /* Object+AssociaTedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Object+AssociaTedObject.h"; sourceTree = "<group>"; };
+		6699FDF62B1ADE7700384B2B /* Object+AssociaTedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Object+AssociaTedObject.m"; sourceTree = "<group>"; };
 		66B6D2462A47E11100F19C71 /* UIColor+YHUIColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YHUIColor.h"; sourceTree = "<group>"; };
 		66B6D2472A47E11100F19C71 /* UIColor+YHUIColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YHUIColor.m"; sourceTree = "<group>"; };
 		66B6D2492A47E39900F19C71 /* NSString+YHNSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YHNSString.h"; sourceTree = "<group>"; };
@@ -57,6 +84,13 @@
 		66BD3FEF29EE2F1500710ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66BD3FF129EE2F1600710ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66BD3FF229EE2F1600710ED8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66BDBAB82AF497ED006F696D /* CalcutorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcutorModel.h; sourceTree = "<group>"; };
+		66BDBAB92AF497ED006F696D /* CalcutorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcutorModel.m; sourceTree = "<group>"; };
+		66BDBABB2AF499EF006F696D /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		66BDBABC2AF499EF006F696D /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		66BDBABD2AF499EF006F696D /* CalculatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculatorViewController.xib; sourceTree = "<group>"; };
+		66BDBAC12AF4B529006F696D /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		66BDBAC22AF4B529006F696D /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 		7D58F4EA576D430022B9AE3C /* Pods-LearnLanguage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnLanguage.release.xcconfig"; path = "Target Support Files/Pods-LearnLanguage/Pods-LearnLanguage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +99,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661C464E2B118EDC00AE6827 /* libsqlite3.tbd in Frameworks */,
+				6614BA002AFF328A00D5C2DC /* MediaPlayer.framework in Frameworks */,
+				6614BA042AFF32A500D5C2DC /* AVFoundation.framework in Frameworks */,
+				6614BA022AFF329600D5C2DC /* CoreMedia.framework in Frameworks */,
+				6614B9FE2AFF327E00D5C2DC /* MobileCoreServices.framework in Frameworks */,
+				6614B9FC2AFF327400D5C2DC /* AssetsLibrary.framework in Frameworks */,
 				EFE4F5EFF720D0648995EAA0 /* Pods_LearnLanguage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +115,12 @@
 		0E258802DF5A08772FAA5C86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				661C464D2B118EDB00AE6827 /* libsqlite3.tbd */,
+				6614BA032AFF32A500D5C2DC /* AVFoundation.framework */,
+				6614BA012AFF329600D5C2DC /* CoreMedia.framework */,
+				6614B9FF2AFF328A00D5C2DC /* MediaPlayer.framework */,
+				6614B9FD2AFF327E00D5C2DC /* MobileCoreServices.framework */,
+				6614B9FB2AFF327400D5C2DC /* AssetsLibrary.framework */,
 				39FBADACA99385BBA58B0996 /* Pods_LearnLanguage.framework */,
 			);
 			name = Frameworks;
@@ -87,6 +133,22 @@
 				7D58F4EA576D430022B9AE3C /* Pods-LearnLanguage.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		661C46492B11869300AE6827 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				661C464A2B1186A400AE6827 /* minion_01.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		666175252AFF359E006F9ADF /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				666175262AFF35AC006F9ADF /* test.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 		66BD3FD429EE2F1000710ED8 = {
@@ -110,6 +172,10 @@
 		66BD3FDF29EE2F1100710ED8 /* LearnLanguage */ = {
 			isa = PBXGroup;
 			children = (
+				661C46492B11869300AE6827 /* Videos */,
+				666175252AFF359E006F9ADF /* Music */,
+				66BDBAC02AF4B505006F696D /* CustomView */,
+				66BDBAB72AF497C5006F696D /* Calculator */,
 				66BD3FE029EE2F1100710ED8 /* AppDelegate.h */,
 				66BD3FE129EE2F1100710ED8 /* AppDelegate.m */,
 				66BD3FE329EE2F1100710ED8 /* SceneDelegate.h */,
@@ -121,7 +187,6 @@
 				66BD3FEE29EE2F1500710ED8 /* LaunchScreen.storyboard */,
 				66BD3FF129EE2F1600710ED8 /* Info.plist */,
 				66BD3FF229EE2F1600710ED8 /* main.m */,
-				6604610B2A2DD3B40055A770 /* KVC.md */,
 				668155F82A3820DF000DC545 /* DDCollegePickerVC.h */,
 				668155F92A3820DF000DC545 /* DDCollegePickerVC.m */,
 				668155FB2A3827CB000DC545 /* TestClass.h */,
@@ -138,8 +203,35 @@
 				66B6D2492A47E39900F19C71 /* NSString+YHNSString.h */,
 				66B6D24A2A47E39900F19C71 /* NSString+YHNSString.m */,
 				66B6D2472A47E11100F19C71 /* UIColor+YHUIColor.m */,
+				666D07FA2A5BA56500574406 /* Object.h */,
+				6699FDF52B1ADE7700384B2B /* Object+AssociaTedObject.h */,
+				6699FDF62B1ADE7700384B2B /* Object+AssociaTedObject.m */,
+				666D07FB2A5BA56500574406 /* Object.m */,
 			);
 			path = LearnLanguage;
+			sourceTree = "<group>";
+		};
+		66BDBAB72AF497C5006F696D /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				66BDBAB82AF497ED006F696D /* CalcutorModel.h */,
+				66BDBAB92AF497ED006F696D /* CalcutorModel.m */,
+				66BDBABB2AF499EF006F696D /* CalculatorViewController.h */,
+				66BDBABC2AF499EF006F696D /* CalculatorViewController.m */,
+				66BDBABD2AF499EF006F696D /* CalculatorViewController.xib */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		66BDBAC02AF4B505006F696D /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				66BDBAC12AF4B529006F696D /* RedView.h */,
+				66BDBAC22AF4B529006F696D /* RedView.m */,
+				6614B9F82AFF25EE00D5C2DC /* DrawView.h */,
+				6614B9F92AFF25EE00D5C2DC /* DrawView.m */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				66BD3FF029EE2F1500710ED8 /* LaunchScreen.storyboard in Resources */,
+				666175272AFF35AC006F9ADF /* test.mp3 in Resources */,
 				66BD3FED29EE2F1500710ED8 /* Assets.xcassets in Resources */,
+				66BDBABF2AF499EF006F696D /* CalculatorViewController.xib in Resources */,
 				66BD3FEB29EE2F1100710ED8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,11 +352,17 @@
 			files = (
 				66B6D24B2A47E39900F19C71 /* NSString+YHNSString.m in Sources */,
 				6638109C2A396172004B553C /* YHMainVC.m in Sources */,
+				66BDBABE2AF499EF006F696D /* CalculatorViewController.m in Sources */,
 				668155FD2A3827CB000DC545 /* TestClass.m in Sources */,
 				663810A22A3965ED004B553C /* DiscoverVC.m in Sources */,
+				6699FDF72B1ADE7700384B2B /* Object+AssociaTedObject.m in Sources */,
+				666D07FC2A5BA56500574406 /* Object.m in Sources */,
 				663810A52A396600004B553C /* MineVC.m in Sources */,
+				66BDBABA2AF497ED006F696D /* CalcutorModel.m in Sources */,
 				66BD3FE829EE2F1100710ED8 /* ViewController.m in Sources */,
 				66BD3FE229EE2F1100710ED8 /* AppDelegate.m in Sources */,
+				66BDBAC32AF4B529006F696D /* RedView.m in Sources */,
+				6614B9FA2AFF25EE00D5C2DC /* DrawView.m in Sources */,
 				66BD3FF329EE2F1600710ED8 /* main.m in Sources */,
 				6638109F2A3965D3004B553C /* HomeVC.m in Sources */,
 				668155FA2A3820DF000DC545 /* DDCollegePickerVC.m in Sources */,
@@ -343,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -395,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -417,9 +517,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,6 +527,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyh.OC.LearnLanguage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,9 +549,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +559,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyh.OC.LearnLanguage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

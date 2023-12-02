@@ -24,7 +24,6 @@
     [super viewDidLoad];
 //    [self multiThreading];
 //    [self changeTwoNumber];
-    [self animation];
     self.cityName = @"北京";
 //初始化的时候调用initialize类方法
 //    TestClass *test = [[TestClass alloc] init];
@@ -65,22 +64,6 @@
     D = C ^ D;
     C = C ^ D;
     printf("C=%d D=%d\n",C,D);
-}
-
-/*动画*/
-- (void)animation {
-   
-}
-
-- (void)masonry {
-    UIView *superView = self.view;
-    UIView *firstView = [[UIView alloc] init];
-    firstView.translatesAutoresizingMaskIntoConstraints = NO;
-}
-
-- (void)coreData {
-   
-    
 }
 
 
